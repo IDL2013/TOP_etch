@@ -1,5 +1,5 @@
 *{
-    border: 2px dashed grey;
+    border: 0.5px dashed grey;
 }
 
 body {
@@ -20,12 +20,17 @@ h1{
     gap: 10px;
 }
 
-.container{
+#container{
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 0px;
     height: 500px;
-    width: 1000px;
+    width: 500px;
     margin: auto;
-    background-color: white;}
+    border: 0;
+    padding: 0;
+    background-color: white;
+    overflow:hidden;
+}
